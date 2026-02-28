@@ -38,6 +38,6 @@ Dynamic customer type summaries.
 - Strong seasonality trend with peak revenues during summer months.
 
 📂 Files Included
-- `Hotels Reservations Dashboard.pbix` – Power BI report file  
+- `Hotels Reservations Analysis Dashboard.pbix` – Power BI report file  
 - `Hotels_Reservations_Dashboard_Documentation.docx` – Full documentation and insights  
-- `Dashboard_Screenshots/` – Visual previews  
+- `Project Screenshots` – Visual previews  
