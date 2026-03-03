@@ -1,43 +1,32 @@
-🏨 Hotel Reservations Dashboard (Power BI Project)
+# Hotel Reservation Analysis: Power BI Dashboard
 
-📘 Overview
-This project analyzes hotel booking data to identify key performance insights, guest behavior patterns, and hotel performance comparisons between City and Resort hotels.  
-The dataset was sourced from [Kaggle - Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/mojtaba142/hotel-booking).
+## Project Overview
+Why are cancellations spiking, and which guest segments drive the most revenue? This project analyzes a hotel reservation dataset to uncover booking patterns, cancellation trends, and revenue drivers. I've transformed raw reservation data into an interactive Power BI dashboard that helps stakeholders optimize pricing and occupancy strategies.
 
-🎯 Objectives
-- Transform raw booking data into meaningful business insights.
-- Build interactive dashboards to support data-driven decisions.
-- Visualize booking trends, cancellations, and customer segments.
+## The Dataset
+The analysis covers reservation records including:
+* **Booking Details:** Lead time, arrival date, length of stay, and meal plans.
+* **Guest Information:** Number of adults/children, customer type, and repeated guest status.
+* **Financials:** Average Daily Rate (ADR) and total revenue.
+* **Status:** Cancellation status, booking changes, and deposit type.
 
-🛠 Tools & Technologies
-- Power BI
-- Power Query
-- DAX
-- Excel
+## Tech Stack & Skills
+* **Tool:** Power BI Desktop
+* **Data Transformation:** Power Query (ETL) for cleaning and formatting dates/null values.
+* **Calculations:** DAX (Data Analysis Expressions) for custom measures like `Cancellation Rate %`, `Total Revenue`, and `Average Lead Time`.
+* **Visualizations:** Slicers, KPI Cards, Heatmaps, and Trend Lines.
 
-📊 Dashboard Pages
-**Page 1 – Executive Overview:**  
-KPIs (Total Bookings, Total Revenue, ADR, Nationalities, Cancellation Rate) and trend analysis by market segment and country.
+## Key Features & Insights
+* **Cancellation Deep-Dive:** Identified a strong correlation between long lead times and high cancellation rates, suggesting a need for stricter deposit policies for early bookings.
+* **Revenue by Segment:** Analyzed which market segments (Online TA, Offline TA, Corporate) yield the highest ADR.
+* **Seasonality Trends:** Visualized peak booking months to help with seasonal staffing and pricing adjustments.
+* **Guest Loyalty:** Compared the behavior of new vs. returning guests to evaluate the effectiveness of loyalty programs.
 
-**Page 2 – Guest Behavior:**  
-Guest patterns, stay type distribution, meal type preferences, and top customers.
+## Dashboard Preview
+![Dashboard Screenshot](https://github.com/ZiadMohamedWD/Hotel_Reservation_Dashboard/blob/main/Screenshot%202026-02-28%20213811.png)
 
-**Page 3 – Hotel Performance:**  
-Comparison of City vs Resort hotel revenue, ADR, cancellations, and peak season analysis.
+![Dashboard Screenshot](https://github.com/ZiadMohamedWD/Hotel_Reservation_Dashboard/blob/main/Screenshot%202026-02-28%20213826.png)
 
-**Drillthrough Page:**  
-Country-level insights with KPIs and booking trends.
+![Dashboard Screenshot](https://github.com/ZiadMohamedWD/Hotel_Reservation_Dashboard/blob/main/Screenshot%202026-02-28%20213840.png)
 
-**Tooltip Page:**  
-Dynamic customer type summaries.
-
-💡 Key Insights
-- City Hotels generate higher booking volumes, while Resort Hotels have higher ADR and longer stays.  
-- Online Travel Agents dominate bookings — highlighting the importance of digital channels.  
-- Cancellations are higher in City Hotels — suggesting policy optimization opportunities.  
-- Strong seasonality trend with peak revenues during summer months.
-
-📂 Files Included
-- `Hotels Reservations Analysis Dashboard.pbix` – Power BI report file  
-- `Hotels_Reservations_Dashboard_Documentation.docx` – Full documentation and insights  
-- `Project Screenshots` – Visual previews  
+![Dashboard Screenshot](https://github.com/ZiadMohamedWD/Hotel_Reservation_Dashboard/blob/main/Screenshot%202026-02-28%20213856.png)
